@@ -19,8 +19,8 @@ Installera Git LFS på din dator (endast första gången):
 git lfs track "*.zip"
 git add .gitattributes
 ## ✅ Lägg till filerna och pusha
-git add Postman-win64-Setup.zip
-git commit -m "Postman-win64-Setup.zip"
+git add bigfile.zip
+git commit -m "bigfile.zip"
 git push origin main
 
 # Klona ett nytt repo (hämtar automatiskt LFS-filer)
