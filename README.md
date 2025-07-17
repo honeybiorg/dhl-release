@@ -12,10 +12,7 @@ Installera Git LFS på din dator (endast första gången):
 
 ```bash
 git lfs install
-## ✅ Första gången (installera Git LFS)
-
-Installera Git LFS på din dator (endast första gången):
-## ✅ Lägg till nytt filformat (t.ex. .zip)
+# ✅ Lägg till nytt filformat (t.ex. .zip)
 git lfs track "*.zip"
 git add .gitattributes
 ## ✅ Lägg till filerna och pusha
